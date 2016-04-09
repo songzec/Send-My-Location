@@ -34,17 +34,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="latitude"
         android:id="@+id/latitudeTextView"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="71dp"
         android:layout_below="@+id/longitudeTextView"
-        android:layout_alignStart="@+id/altitudeTextView" />
+        android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="altitude"
-        android:id="@+id/altitudeTextView"
-        android:layout_below="@+id/latitudeTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp" />
 </RelativeLayout>
